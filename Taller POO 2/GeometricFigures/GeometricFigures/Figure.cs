@@ -5,7 +5,7 @@
         public string Name { get; set; }
 
         public Figure(string name)
-        {
+        {+
             Name = name;
         }
 
