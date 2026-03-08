@@ -16,15 +16,16 @@ namespace Exercise32
                 int espacios = Math.Abs(mitad - i);
 
                 Console.Write(new string(' ', espacios));
-                Console.Write("*");
+                Console.Write("#");
 
                 if (espacios < mitad)
                 {
                     int interior = n - 2 * espacios - 2;
+
                     if (interior >= 0)
                     {
                         Console.Write(new string(' ', interior));
-                        Console.Write("*");
+                        Console.Write("#");
                     }
                 }
 
